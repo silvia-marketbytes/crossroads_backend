@@ -10,7 +10,6 @@ class ServiceSerializer(serializers.ModelSerializer):
     class Meta:
         model = Service
         fields = '__all__'
-
 class AboutSerializer(serializers.ModelSerializer):
     class Meta:
         model = About
